@@ -9,17 +9,15 @@ class Bomb  extends Component {
     }
   }
    render(){
-     if(this.state.secondsLeft==0)
-        {
-             return( <div>Boom!</div>)
-        }
-        else{
-            return(
-                <div>{this.state.secondsLeft} left before I go boom!</div>
-            )
-        }
+     if(this.state.secondsLeft === 0)
+     {
+             return(<div>Boom!</div>)
+     }
+     else{
+          return(<div>{this.state.secondsLeft} left before I go boom!</div>)
+      }
    }
     
 }
 
-  export default ImageSlider 
+  export default Bomb 
