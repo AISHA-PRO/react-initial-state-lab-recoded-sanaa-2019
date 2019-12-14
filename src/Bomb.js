@@ -14,7 +14,7 @@ class Bomb  extends Component {
              return(<div>Boom!</div>)
      }
      else{
-          return(<div>{this.state.secondsLeft} left before I go boom!</div>)
+          return(<div>{this.state.secondsLeft} seconds left before I go boom!</div>)
       }
    }
     
